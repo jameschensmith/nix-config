@@ -18,6 +18,7 @@
     {
         devShells.${system}.default = pkgs.mkShell {
             packages = [
+                pkgs.just
                 pkgs.home-manager
             ];
         };
@@ -29,6 +30,7 @@
                 home.homeDirectory = "/Users/james.chen-smith";
                 home.stateVersion = "23.11";
                 home.packages = with pkgs; [
+                    just
                     neovim
                 ];
                 programs.home-manager.enable = true;

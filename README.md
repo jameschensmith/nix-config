@@ -16,7 +16,7 @@ Next, run `nix develop` in the current directory to get into the Nix shell.
 ### Build and Activate Configuration
 
 ```
-home-manager switch --flake .
+just switch
 ```
 
 ## Public Domain
