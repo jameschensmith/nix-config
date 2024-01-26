@@ -2,5 +2,5 @@ _default:
     @just --list
 
 # Build and activate configuration
-switch:
-    home-manager switch --flake .
+switch name:
+    home-manager switch --flake .#{{name}}

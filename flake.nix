@@ -23,11 +23,27 @@
             ];
         };
 
-        homeConfigurations."james.chen-smith" = lib.homeManagerConfiguration {
-            inherit pkgs;
-            modules = [
-                ./home.nix
-            ];
+        homeConfigurations = {
+            "personal" = lib.homeManagerConfiguration {
+                inherit pkgs;
+                modules = [
+                    ./home.nix
+                    {
+                        home.username = "jameschensmith";
+                        home.homeDirectory = "/Users/jameschensmith";
+                    }
+                ];
+            };
+            "work" = lib.homeManagerConfiguration {
+                inherit pkgs;
+                modules = [
+                    ./home.nix
+                    {
+                        home.username = "james.chen-smith";
+                        home.homeDirectory = "/Users/james.chen-smith";
+                    }
+                ];
+            };
         };
     };
 }

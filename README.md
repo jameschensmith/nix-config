@@ -16,7 +16,7 @@ Next, run `nix develop` in the current directory to get into the Nix shell.
 ### Build and Activate Configuration
 
 ```
-just switch
+just switch <name>
 ```
 
 ## Public Domain
