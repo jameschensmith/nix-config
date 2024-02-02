@@ -21,3 +21,7 @@ setopt SHARE_HISTORY
 # Configure autocompletion.
 autoload -Uz compinit
 compinit -d "$XDG_CACHE_HOME/zsh/zcompdump"
+
+if [ -x "$(command -v zoxide)" ]; then
+    eval "$(zoxide init zsh)"
+fi

@@ -16,6 +16,7 @@
         just
         kakoune
         neovim
+        zoxide
         zsh
     ];
     programs.home-manager.enable = true;
