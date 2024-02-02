@@ -1,0 +1,21 @@
+# Documentation: https://git-scm.com/docs/git-config#_configuration_file
+
+[user]
+	name = James Chen-Smith
+
+[init]
+	defaultBranch = trunk
+
+[alias]
+	commit-empty = commit --allow-empty-message -m ''
+	list-aliases = --list-cmds=alias
+
+[include]
+	path = config-untracked
+
+[interactive]
+	singleKey = true
+
+[diff]
+	colormoved = "default"
+	colormovedws = "allow-indentation-change"
