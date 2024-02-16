@@ -12,6 +12,7 @@
         gnutar
         gzip
 
+        bun
         git
         just
         kakoune
