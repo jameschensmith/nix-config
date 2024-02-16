@@ -16,6 +16,7 @@
         just
         kakoune
         neovim
+        nushell
         ripgrep
         zoxide
         zsh
