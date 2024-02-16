@@ -19,3 +19,6 @@
 [diff]
 	colormoved = "default"
 	colormovedws = "allow-indentation-change"
+
+[ghq]
+	root = ~/Code

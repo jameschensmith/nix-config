@@ -13,6 +13,7 @@
         gzip
 
         bun
+        ghq
         git
         just
         kakoune
