@@ -37,3 +37,7 @@ git() {
     fi
     command git "$@"
 }
+
+export EDITOR="kak -n"
+export PAGER="less"
+export VISUAL="kak"
