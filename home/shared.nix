@@ -17,6 +17,7 @@
         git
         just
         kakoune
+        less
         neovim
         nushell
         ripgrep
