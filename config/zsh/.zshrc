@@ -25,3 +25,7 @@ compinit -d "$XDG_CACHE_HOME/zsh/zcompdump"
 if [ -x "$(command -v zoxide)" ]; then
     eval "$(zoxide init zsh)"
 fi
+
+if [ -x "$(command -v atuin)" ]; then
+    eval "$(atuin init zsh)"
+fi
