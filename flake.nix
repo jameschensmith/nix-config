@@ -24,7 +24,7 @@
         };
 
         homeConfigurations = {
-            "jameschensmith@buzz" = lib.homeManagerConfiguration {
+            "james@buzz" = lib.homeManagerConfiguration {
                 inherit pkgs;
                 modules = [ ./home/personal.nix ];
             };
