@@ -26,6 +26,7 @@
     ];
     programs.home-manager.enable = true;
     xdg.configFile."git/config".source = ../config/git/config;
+    xdg.configFile."kak/kakrc".source = ../config/kak/kakrc;
     home.file.".zshenv".source = ../config/zsh/.zshenv;
     xdg.configFile."zsh/.zshrc".source = ../config/zsh/.zshrc;
 }
