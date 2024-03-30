@@ -21,6 +21,7 @@
         neovim
         nushell
         ripgrep
+        tmux
         zoxide
         zsh
     ];
