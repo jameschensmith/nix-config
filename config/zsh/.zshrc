@@ -39,5 +39,5 @@ git() {
 }
 
 export EDITOR="kak -n"
-export PAGER="less"
+export PAGER="less -R"
 export VISUAL="kak"
