@@ -4,6 +4,7 @@
     home.homeDirectory = "/Users/james";
     home.packages = with pkgs; [
         atuin
+        go
         jujutsu
     ];
 }
