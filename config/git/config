@@ -12,6 +12,9 @@
 	reference = show -s --pretty=reference
 	squash-branch = !git reset --soft $(git show-branch --merge-base) && git merge --squash HEAD@{1}
 
+[commit]
+	verbose = true
+
 [include]
 	path = config-untracked
 
