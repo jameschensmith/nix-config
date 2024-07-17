@@ -7,8 +7,8 @@
 	defaultBranch = trunk
 
 [alias]
+	aliases = --list-cmds=alias
 	commit-empty = commit --allow-empty-message -m ''
-	list-aliases = --list-cmds=alias
 	reference = show -s --pretty=reference
 	squash-branch = !git reset --soft $(git show-branch --merge-base) && git merge --squash HEAD@{1}
 
