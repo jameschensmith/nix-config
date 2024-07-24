@@ -22,6 +22,7 @@
         nushell
         ripgrep
         tmux
+        yazi
         zoxide
         zsh
     ];
