@@ -18,7 +18,6 @@
         just
         kakoune
         less
-        neovim
         nushell
         ripgrep
         tmux
