@@ -16,6 +16,7 @@
         fzf
         ghq
         git
+        jujutsu
         just
         kakoune
         less

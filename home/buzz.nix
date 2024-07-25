@@ -5,6 +5,5 @@
     home.packages = with pkgs; [
         atuin
         go
-        jujutsu
     ];
 }
