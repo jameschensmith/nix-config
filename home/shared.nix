@@ -13,6 +13,7 @@
         gzip
 
         bun
+        fzf
         ghq
         git
         just
