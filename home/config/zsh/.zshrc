@@ -26,10 +26,6 @@ if [ -x "$(command -v zoxide)" ]; then
     eval "$(zoxide init zsh)"
 fi
 
-if [ -x "$(command -v atuin)" ]; then
-    eval "$(atuin init zsh)"
-fi
-
 git() {
     if [ "$1" = "checkout" ]; then
         echo "please use 'switch' or 'restore' instead of 'checkout'"
