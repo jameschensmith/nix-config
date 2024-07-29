@@ -34,6 +34,6 @@ git() {
     command git "$@"
 }
 
-export EDITOR="kak -n"
+export EDITOR="kak"
 export PAGER="less -R"
 export VISUAL="kak"
