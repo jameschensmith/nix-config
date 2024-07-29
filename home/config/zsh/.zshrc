@@ -26,6 +26,10 @@ if [ -x "$(command -v zoxide)" ]; then
     eval "$(zoxide init zsh)"
 fi
 
+if [ -x "$(command -v jj)" ]; then
+    export JJ_CONFIG="$XDG_CONFIG_HOME/jj/config.d/"
+fi
+
 git() {
     if [ "$1" = "checkout" ]; then
         echo "please use 'switch' or 'restore' instead of 'checkout'"

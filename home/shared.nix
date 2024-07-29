@@ -33,4 +33,8 @@
     xdg.configFile."tmux/tmux.conf".source = ./config/tmux/tmux.conf;
     home.file.".zshenv".source = ./config/zsh/.zshenv;
     xdg.configFile."zsh/.zshrc".source = ./config/zsh/.zshrc;
+    xdg.configFile."jj/config.d" = {
+        source = ./config/jj/config.d;
+        recursive = true;
+    };
 }
