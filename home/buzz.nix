@@ -4,5 +4,6 @@
     home.homeDirectory = "/Users/james";
     home.packages = with pkgs; [
         go
+        gopls
     ];
 }

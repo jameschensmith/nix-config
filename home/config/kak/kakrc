@@ -1,1 +1,18 @@
 set-option global ui_options terminal_assistant=none
+
+eval %sh{kak-lsp --kakoune -s $kak_session}
+map global user l ':enter-user-mode lsp<ret>' -docstring "LSP mode"
+
+declare-option -hidden bool lsp_window_enabled false
+define-command -hidden lsp-toggle-enabled %{
+    evaluate-commands %sh{
+        if [ "${kak_opt_lsp_window_enabled}" = "true" ]; then
+            echo 'set-option window lsp_window_enabled false'
+            echo 'lsp-disable-window'
+        else
+            echo 'set-option window lsp_window_enabled true'
+            echo 'lsp-enable-window'
+        fi
+    }
+}
+map global lsp <tab> ':lsp-toggle-enabled<ret>' -docstring 'Toggle LSP'

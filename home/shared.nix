@@ -19,6 +19,7 @@
         jujutsu
         just
         kakoune
+        kakoune-lsp
         less
         nushell
         ripgrep
